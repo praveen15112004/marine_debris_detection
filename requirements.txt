@@ -1,0 +1,21 @@
+# Streamlit and UI dependencies
+streamlit==1.32.2
+Pillow==10.3.0
+
+# Image and video processing
+opencv-python==4.9.0.80
+matplotlib==3.8.4
+numpy==1.26.4
+scipy==1.13.0
+seaborn==0.13.2
+
+# YOLOv8 and torch (for inference)
+ultralytics==8.1.42
+torch==2.2.2
+torchvision==0.17.2
+
+# For base64 encoding
+# (base64 is a standard lib, so no pip install needed)
+
+# Optional - to avoid warnings from Streamlit
+protobuf==4.25.3
